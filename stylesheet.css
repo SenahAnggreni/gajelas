@@ -1128,6 +1128,17 @@ o @keyframes bannar_come {
   color: #bf4136;
   text-shadow: 5px 5px 5px #fff;
   display: none;
+	@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
 }
 #b1,
 #b11 {
